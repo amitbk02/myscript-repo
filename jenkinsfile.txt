@@ -1,0 +1,19 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Checkout') {
+            steps {
+                git 'https://github.com/your-username/myscript-repo.git'
+            }
+        }
+
+        stage('Build') {
+            steps {
+                echo 'Build step (no actual build for HTML)'
+            }
+        }
+
+        
+    }
+}
