@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     stages {
-        stage('Checkout') {
+        stage  {
             steps {
-                git 'https://github.com/your-username/myscript-repo.git'
+                git 'https://https://github.com/amitbk02/myscript-repo.git'
             }
         }
 
